@@ -1,0 +1,67 @@
+/* CSS RESET */
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: #001D3D;
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+}
+
+main {
+    color: hsl(0, 0%, 95%);
+    display: grid;
+    grid-template-areas:
+        "A A B"
+        "C D D"
+        "C E E"
+    ;
+    gap: 10px;
+    margin: auto;
+    width: 50%;
+
+
+}
+
+main div {
+    padding: 2em;
+    text-align: center;
+
+}
+
+.ItemA {
+    background-color: orangered;
+    grid-area: A;
+    height: 5rem;
+
+}
+
+.ItemB {
+    background-color: rgb(253, 236, 1);
+    grid-area: B;
+}
+
+.ItemC {
+    background-color: rgb(29, 247, 29);
+    grid-area: C;
+
+
+}
+
+.ItemD {
+    background-color: rgb(99, 204, 253);
+    grid-area: D;
+
+
+}
+
+.ItemE {
+    background-color: rgb(99, 204, 253);
+    grid-area: E;
+
+
+}
