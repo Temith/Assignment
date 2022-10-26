@@ -1,0 +1,116 @@
+/* CSS RESET */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    border: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 33.3%;
+    margin: auto;
+}
+
+.firstbox {
+    background-color: hsl(31, 77%, 52%);
+    padding: 20px;
+    /* width: 33.3%; */
+}
+
+#container p {
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 50px;
+    font-size: 15px;
+    font-family: lexend Deca;
+}
+
+.firstbox h3 {
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    padding-top: 20px;
+
+}
+
+.firstbox button {
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 12px;
+    padding: 10px;
+    color: hsl(31, 77%, 52%);
+}
+
+.secondbox {
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px;
+    /* width: 33.3%; */
+}
+
+.secondbox h3 {
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    padding-top: 20px;
+
+}
+
+.secondbox button {
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 12px;
+    padding: 10px;
+    color: hsl(184, 100%, 22%);
+}
+
+.thirdbox {
+    background-color: hsl(179, 100%, 13%);
+    padding: 20px;
+    /* width: 33.3%; */
+}
+
+.thirdbox h3 {
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    padding-top: 20px;
+
+}
+
+.thirdbox button {
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 12px;
+    padding: 10px;
+    color: hsl(184, 100%, 22%);
+}
+
+@media screen and (max-width:1440px) {
+    #container {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    #container {
+        width: 100%;
+    }
+}
